@@ -1,0 +1,14 @@
+{
+  "name": "COMP125-M2020-LESSON10",
+  "version": "1.0.0",
+  "description": "DEMO PROJECT LESSON 10",
+  "main": "index.js",
+  "author": "veysel boybay",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

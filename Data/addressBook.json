@@ -1,0 +1,26 @@
+{
+    "addressBook":
+    [
+        {
+            "firstName":"Veysel",
+            "lastName":"Boybay",
+            "emailAddress":"veysel@boybay.ca",
+            "contactNumber":"4376881902",
+            "shortMessage":"Hello there i am veysel"
+        },
+        {
+            "firstName":"Aysenur",
+            "lastName":"Boybay",
+            "emailAddress":"aysenur@boybay.ca",
+            "contactNumber":"4376881903",
+            "shortMessage":"Hello there i am aysenur"
+        },
+        {
+            "firstName":"Yigit Kemal",
+            "lastName":"Boybay",
+            "emailAddress":"yigitKemal@boybay.ca",
+            "contactNumber":"4376881909",
+            "shortMessage":"Hello there i am yigit Kemal"
+        }
+    ]
+}
