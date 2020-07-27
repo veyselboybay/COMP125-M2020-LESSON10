@@ -1,4 +1,6 @@
 //IIFE - Immediately Invoked Function Expression
+import {Contact} from "./contact.js"
+
 (function(){
 
     function Start()
@@ -7,6 +9,9 @@
         console.log("App Started... " ,"color:white; font-size:24px;");
          
         InitializeSite();
+
+        let businessContact=new BusinessContact();
+
     }
     window.addEventListener("load",Start);
 
@@ -127,7 +132,7 @@
 
                 for(const record of addressBook)
                 {
-                    let contact=new objects.Contact();
+                    let contact=new Contact();
                     contact.setContact(record);
                     contactList.push(contact);
                 }
@@ -175,7 +180,7 @@
     
     function validateForm()
     {
-        let contact=new objects.Contact();
+        let contact=new Contact();
         let contactForm=document.forms[0];
 
         
